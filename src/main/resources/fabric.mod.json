@@ -3,15 +3,15 @@
 	"id": "tutorialmod",
 	"version": "${version}",
 	"name": "Tutorial Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Tutorial mod created while following a youtube tutorial by Kaupenjoe. See the readme for more information about the tutorial.",
 	"authors": [
-		"Me!"
+		"MommyHedgehog"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/MommyHedgehog",
+		"sources": "https://github.com/MommyHedgehog/tutorialmod"
 	},
-	"license": "CC0-1.0",
+	"license": "GPL-3.0",
 	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"mommyhedgehog.tutorialmod.TutorialModDataGenerator"
+		],
+		"client": [
+			"mommyhedgehog.tutorialmod.TutorialModClient"
 		]
 	},
 	"mixins": [
