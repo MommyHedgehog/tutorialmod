@@ -6,7 +6,7 @@ The initial template was generated at https://fabricmc.net/develop/template/ and
 
 ## Progress
 
-- [x] Getting Started (finished as of commit a7288fb86e803b29021a6e632a6625b46930adec)
+- [x] Getting Started (finished as of commit [a7288fb](https://github.com/MommyHedgehog/tutorialmod/commit/a7288fb86e803b29021a6e632a6625b46930adec))
 - [ ] Custom Items
 - [ ] Custom Blocks
 - [ ] Item Groups
